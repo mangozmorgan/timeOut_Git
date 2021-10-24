@@ -62,6 +62,15 @@ a{
     border-radius: 5px;     
     margin-bottom: 1vw;     
 }
+#btn1{
+    margin-top: 4vh;
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    box-shadow:0vw;
+    border: 2px solid #3498db00;
+    padding: 0.4vw 0.8vw;
+}
 
 #btn1:hover{
    
@@ -70,21 +79,7 @@ a{
     border: 2px solid #3498db;
 }
 
-#btn3{
-    font-size: 0.8vw;
-    box-shadow: unset;
-}
 
-
-
-
-
-.errorLogin,.errorInsc{
-    color: #e74c3c;
-    font-size: 0.8vw;
-    margin-top: -0.5vw;
-    margin-bottom: 0.5vw;
-}
 .buttonOpen{
     transition: all ease-in-out 0.8s;
      position: relative;
@@ -101,156 +96,13 @@ a{
     transition: ease-in-out all 0.4s;
     cursor: pointer;
 }
-.recuePassFrom{
-    transition: all ease-in-out 0.5s;
-    left: -80%;
-    position: absolute;
-    padding: 2vw;
-     box-shadow:5px 5px 8px #090909,
-             -1px -1px 12px #a3a1a1a6;
-    display: flex;
-    flex-direction: column;
-}
+
 
 .controlDiv{
     display: flex;
 }
 
-.controlDiv input{
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    margin-right: 1vw;
-    transition: ease-in-out all 0.4s;
-}
 
-
-
-    
-   
-.controlDiv input:hover{
-    transition: ease-in-out all 0.4s;
-    cursor: pointer;
-    background-color: #74b9ff;
-}
-.controlDiv a{
-    text-decoration: none;
-    color: white;
-}
-.controlDiv a:hover{
-    background-color: rgba(231, 76, 60,1.0);
-    transition: ease-in-out all 0.4s;
-    cursor: pointer;
-    
-}
-
-.btnRescue{
-    margin-bottom: 1vw;
-    width: max-content;
-    padding: 0.5vw 1vw;
-    border-radius: 5px;
-    box-shadow:5px 5px 8px #090909,
-             -1px -1px 12px #a3a1a1a6;
-}
-
-#errorRescue{
-    color: red;
-}
-
-.recuePassFromOpen{
-position: relative;
-    left: 0;
-   
-    transition: all ease-in-out 0.5s;
-    padding: 2vw;
-     box-shadow:5px 5px 8px #090909,
-             -1px -1px 12px #a3a1a1a6;
-    display: flex;
-    flex-direction: column;
-}
-
-.loginForm{
-    transition: all ease-in-out 0.5s;
-    left: -80%;
-    position: absolute;
-    padding: 2vw;
-     box-shadow:5px 5px 8px #090909,
-             -1px -1px 12px #a3a1a1a6;
-    display: flex;
-    flex-direction: column;
-}
-.inscForm{
-    transition: all ease-in-out 0.5s;
-    right: -80%;
-     position: absolute;
-    padding: 2vw;
-     box-shadow:5px 5px 8px #090909,
-             -1px -1px 12px #a3a1a1a6;
-    display: flex;
-    flex-direction: column;
-}
-.loginFormOpen{
-    position: relative;
-    left: 0;
-   
-    transition: all ease-in-out 0.5s;
-    padding: 2vw;
-     box-shadow:5px 5px 8px #090909,
-             -1px -1px 12px #a3a1a1a6;
-    display: flex;
-    flex-direction: column;
-}
-
-.cancelFormInsc,.cancelFormLog{
-     font-size: 0.8vw !important;
-    margin-right: 0.5vw;
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    padding: 0.5vw 1vw;
-    border-radius: 5px;
-    border: 1px solid white;
-    transition: all ease-in-out 0.4s;
-    width: max-content;
-}
-.cancelFormInsc:hover,.cancelFormLog:hover{
-    cursor: pointer;
-    background-color: #e74c3c;
-    color: white;
-}
-.inscFormOpen{
-    position: relative;
-    width: 17%;
-    right: 0;
-    transition: all ease-in-out 0.5s;
-    padding: 2vw;
-     box-shadow:5px 5px 8px #090909,
-             -1px -1px 12px #a3a1a1a6;
-    display: flex;
-    flex-direction: column;
-}
-form h2{
-    margin-top: 0vw;
-}
-form label{
-    font-size: 0.8vw;
-    margin-bottom: 0.5vw;
-}
-form input{
-    border-radius: 5px;
-    padding:0.2vw;
-    margin-bottom: 1vw;
-}
-
-
-
-.isOut{
-    height: 4vw;
-    display: flex;
-}
-.isOut span:hover{
-    cursor: default;
-    transition: ease-in-out all 0.5s;
-    font-size: 3vw;
-}
 
 @keyframes show {
     from {
@@ -1289,6 +1141,7 @@ box-shadow:0px 0px 0px #090909,
 }
 
 .result{
+    margin-bottom: 3vh ;
     display: flex;
         height: 15vw;
     overflow: scroll;
@@ -1325,12 +1178,20 @@ box-shadow:0px 0px 0px #090909,
     border-radius: 5px;
     padding: 0.5vw 1vw;
     margin: 0.5vw 0vw;
+    margin-top: 3vh;
      box-shadow:5px 5px 8px #090909,
              -1px -1px 12px #a3a1a1a6;
 }
 
+.control{
+    display: flex;
+    flex-direction: column;
+}
+.saveToPdf{
+    margin-bottom: 2vh;
+}
 .cleanRecap{
-    margin-top: 9vw;
+    margin-top: 4vw;
     margin-bottom: 2vw;
     width: max-content;
     border-radius: 5px;
