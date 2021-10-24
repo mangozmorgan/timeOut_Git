@@ -1,0 +1,467 @@
+@keyframes showResp {
+    from {
+        width: 0vw;
+        height: 0vw;
+    }
+    
+    to {
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
+@keyframes turnResp{
+    from{
+         width: 0vw;
+        height: 0vw;
+        transform:rotate(0deg) ;
+    }
+    to{
+        width: 50vw;
+        height: 50vw;
+        transform:rotate(360deg)
+    }
+}
+@keyframes flipResp {
+    form{
+        transform: rotateY(0deg);
+    }
+    to{
+ transform: rotateY(360deg)
+    }
+}
+
+@media only screen and (max-width:480px){
+.gameOverFlow{
+    overflow: hidden;
+}   
+    
+.logo {
+    width: 50vw;
+    height: 50vw;
+    margin-bottom: 3vw;
+    margin-top: 5vw;
+}
+    
+    .logo1 {
+       
+         animation: 3s showResp , 5s flipResp; 
+        transition: ease-in-out all 1s;
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        background-image: url(../images/logo1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .logo2 {
+      
+        animation: 4s showResp;
+        transition: ease-in-out all 1s;
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        background-image: url(../images/logo2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .logo3 {
+        
+        animation: 4s showResp;
+        transition: ease-in-out all 1s;
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        background-image: url(../images/logo3.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .logo4 {
+       
+         animation: 3s turnResp; 
+        transition: ease-in-out all 1s;
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        background-image: url(../images/logo4.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .centralDiv h1 {
+    font-size: 12vw;
+    margin-top: 0;
+    margin-bottom: 0vw;
+    }
+
+    .spanAnimOpen {
+    transition: ease-in-out all 0.5s;
+    font-size: 14vw;
+    }
+    .formForm {
+    margin-top:29vw;
+    }
+    #btn3{
+        font-size: 5vw;
+        padding: 2.5vw 2vw;
+        box-shadow: 5px 5px 8px #090909, -1px -1px 12px #a3a1a1a6;
+        border-radius: 5px;
+    }
+
+    .buttonOpen {
+    transition: all ease-in-out 0.8s;
+    position: relative;
+    bottom: 0vw;
+    font-size: 5vw;
+    text-align: center;
+    padding: 2.5vw 2vw;
+    box-shadow: 5px 5px 8px #090909, -1px -1px 12px #a3a1a1a6;
+    border-radius: 5px;
+    margin-bottom: 8vw;
+    }
+
+
+.triangle,.triangle2,.triangle3,.triangle4,.triangle5,.triangle6,.triangle7,.triangle8,.triangle9,.triangle10,.triangle11,.triangle12,.triangle13,.triangle14,.triangle15,.voletGaucheOpen,.voletDroitOpen{
+       display: none ;
+}
+.triangle7{
+           filter: drop-shadow(0px -0.5px 1px white);
+    animation: 8.5s scale, 5s infinite light;
+    position: absolute;
+    height: 40vw;
+    width:40vw;
+    transform: rotate( 
+4deg);
+    top: 10vw;
+    left:-10vw;
+    background-image: url(../images/Polygone\ 6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.triangle8 {
+    filter: drop-shadow(0px -0.5px 1px white);
+    animation: 8.5s scale, 5s infinite light;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+    transform: rotate( 
+-23deg);
+    top: 51vw;
+    left: -20vw;
+    background-image: url(../images/Polygone\ 6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.triangle9 {
+    filter: drop-shadow(0px -0.5px 1px white);
+    animation: 8.5s scale, 5s infinite light;
+    position: absolute;
+    height: 40vw;
+    width: 40vw;
+    transform: rotate( 
+27deg);
+    top: 113vw;
+    left: -19vw;
+    background-image: url(../images/Polygone\ 6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.triangle10{
+    animation: 5.5s scale,4s infinite light2;
+        filter: drop-shadow(0px -0.5px 1px white);
+    position: absolute;
+    height:30vw;
+    width: 30vw;
+    transform: rotate( 
+0deg);
+    top: 47.1vw;
+    left: -0.9vw;
+    background-image: url(../images/Polygone\ 1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+form h2 {
+    font-size: 8vw;
+    margin-top: 0vw;
+}
+form label {
+    font-size: 5vw;
+    margin-bottom: 3.5vw;
+}
+form input {
+    border-radius: 5px;
+    padding: 1vw 2vw;
+    font-size: 5vw;
+    margin-bottom: 5vw;
+}
+form button{
+    font-size: 5vw !important;
+    margin-right: 0.5vw;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 0.5vw 1vw;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: all ease-in-out 0.4s;
+    width: max-content;
+}
+.cancelFormLog{
+    font-size: 5vw !important;
+    
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 0.5vw 1vw;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: all ease-in-out 0.4s;
+    width: max-content;
+    margin-left: 4vw;
+}
+.cancelFormInsc, .cancelFormLog {
+    font-size: 5vw !important;
+    margin-right: 0.5vw;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 0.5vw 1vw;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: all ease-in-out 0.4s;
+    width: max-content;
+    margin-left: 3vw;
+}
+.inscFormOpen {
+       height: 99vw;
+    overflow: scroll;
+    position: relative;
+    width: 70%;
+    top: -9vw;
+    right: 0;
+    transition: all ease-in-out 0.5s;
+    padding: 2vw;
+    box-shadow: 5px 5px 8px #090909, -1px -1px 12px #a3a1a1a6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.infoModal h2 {
+    font-size: 6.5vw;
+    width: 100%;
+    margin-bottom: 0;
+}
+.inscForm {
+    display: none;
+        transition: all ease-in-out 0.5s;
+    right: -100%;
+    position: absolute;
+    padding: 2vw;
+    box-shadow: 5px 5px 8px #090909, -1px -1px 12px #a3a1a1a6;
+    
+    flex-direction: column;
+}
+.timeOut {
+    margin-top: 15vw;
+    font-weight: bold;
+    color: white;
+    font-size: 10vw;
+    width: 100%;
+}
+.infoModal{
+    position: fixed;
+    top: -150vw;
+}
+.dateNow {
+    
+    font-size: 5vw;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8vw;
+}
+.secondStepOpen{
+    width: 83%;
+}
+.bigButton {
+    font-size: 6vw;
+    position: relative;
+    top: 18vw;
+    margin: 2vw 0vw;
+    width: 50vw;
+    padding: 1vw;
+    height: 50vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 100%;
+    filter: drop-shadow(0.5px -0.5px 3px white);
+    
+    background-image: url(../images/simpleBlack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.4s;
+}
+.startButton {
+    width: 40vw;
+    height: 45vw;
+    margin: 0vw -1vw;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 2vw 4vw;
+    border: rgba(46, 204, 113,0.3)2px solid;
+    background-image: url(../images/simpleBlack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.4s;
+    border-radius: 100%;
+}
+.stopButton {
+    width: 25vw;
+    height: 30vw;
+    margin: 0vw 0vw;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 2vw 4vw;
+    border: rgba(231, 76, 60,0.5) 2px solid;
+    background-image: url(../images/simpleBlack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.4s;
+    border-radius: 100%;
+}
+.reprendreButton {
+    width: 40vw;
+    height: 45vw;
+    margin: 0vw 0vw;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 2vw 4vw;
+    border: rgba(52, 152, 219,0.7)2px solid;
+    background-image: url(../images/simpleBlack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.4s;
+    border-radius: 100%;
+}
+
+.secondStep{
+    position: fixed;
+    top: 200vw;
+}
+.pauseButton {
+    width: 25vw;
+    height: 30vw;
+    margin: 0vw 0vw;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 2vw 4vw;
+    border: rgba(241, 196, 15,0.3)2px solid;
+    background-image: url(../images/simpleBlack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.4s;
+    border-radius: 100%;
+}
+
+.recapBtn,.infoBtn,.decoBtn{
+    position: unset;
+}
+.bigButtonOff{
+    top: 200vw;
+}
+.bigResp{
+    font-size: 5vw;
+    height: 35vw !important;
+}
+.resumeDayOpen{
+    box-shadow: unset;
+    border: hidden;
+    width: 88%;
+     top: -50vw;
+}
+.resumeDayOpen h1{
+    font-size: 5vw;
+}
+.resumeDayOpen div {
+   
+    margin: 3.5vw 0vw;
+    font-size: 4vw;
+}
+
+.done{
+    font-size: 4vw;
+}
+
+
+.divRecapUp{
+    top:-160vw;
+}
+.monRecap{
+    margin-top: 28vw;
+    width: 85%;
+    box-shadow: unset;
+}
+
+.result{
+    height: 80vw;
+}
+
+
+.cleanRecap,.sendMail{
+        padding: 3.5vw 4vw;
+    margin-bottom:10vw;
+    font-size: 4vw;
+}
+.result{
+    font-size: 5vw;
+}
+
+.infoModalUp{
+    width: 85%;
+    box-shadow: unset;
+    left: 5%;
+    top: 25vw !important;
+}
+
+.loginForm{
+    position: fixed;
+    left: 100%;
+}
+
+.dowloadDiv{
+    margin-top: 4vw;
+}
+
+.infoModalUp a {
+    display: none;
+}
+
+.infoModalUp p{
+    font-size: 4vw;
+}
+
+}
+
+    
