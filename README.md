@@ -10,6 +10,7 @@ Time's Out est une application de type Timer , orienté freelance . C'ttéest vo
 
 ### Lien disponible
 
-La version disponible en ligne est bien entendue une version "vitrine" les foncionnalités ne sont pas acce
+La version disponible en ligne est bien entendue une version "vitrine" les foncionnalités ne sont pas accessibles , il n'y a que la partie Front-end . Un compte utilisateur sera mis en place sur l'application officielle , disponible sous peu . 
+N'hésitez pas à me faire des retours .
 Ici -> https://mangozmorgan.github.io/timeOut_Git/
 
