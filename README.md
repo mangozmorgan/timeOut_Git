@@ -14,3 +14,6 @@ La version disponible en ligne est bien entendue une version "vitrine" les fonci
 N'hésitez pas à me faire des retours .
 Ici -> https://mangozmorgan.github.io/timeOut_Git/
 
+#### Petit +
+
+Une application Windows 10 sera bientôt dévveloppé !
