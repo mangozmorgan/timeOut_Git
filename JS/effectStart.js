@@ -62,30 +62,7 @@ document.querySelector('.cleanRecap').addEventListener('click', () => {
     document.querySelector('.container').className='container'
     document.querySelector('#divRecap').className='divRecap'
 })
-let modalMail = document.querySelector('.modalMailOff')
-if (modalMail.innerHTML.trim() === 'true') {
-    modalMail.className = 'modalMail'
-    modalMail.innerHTML = 'Récap envoyé avec succès !'
-    modalMail.style.backgroundColor = ' rgba(46, 204, 113,0.8)'
-   setTimeout(() => {
-        document.querySelector('.modalMail').className = 'modalMailOff'
-   }, 5000);
-    
-    fetch('../php/removeMailStatut.php', {
-        method: 'POST', 
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify("a")
-    })
-    
-    
-} else if (modalMail.innerHTML.trim() === 'false') {
-    modalMail.className = 'modalMail'
-    modalMail.innerHTML = 'Erreur mail'
-    modalMail.style.backgroundColor = ' rgba(231, 76, 60,0.8)'
-   
-};
+
 
 
 

@@ -414,18 +414,23 @@ form button{
     font-size: 4vw;
 }
 
+#btn1{
+    font-size: 4.5vh;
+}
+
 
 .divRecapUp{
     top:-160vw;
 }
 .monRecap{
-    margin-top: 28vw;
+    
+    margin-top: 50vw;
     width: 85%;
     box-shadow: unset;
 }
 
 .result{
-    height: 80vw;
+    height:47vw;
 }
 
 
