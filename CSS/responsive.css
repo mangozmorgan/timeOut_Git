@@ -399,7 +399,7 @@ form button{
     box-shadow: unset;
     border: hidden;
     width: 88%;
-     top: -50vw;
+     top:-6vw;
 }
 .resumeDayOpen h1{
     font-size: 5vw;
@@ -415,6 +415,7 @@ form button{
 }
 
 #btn1{
+    margin-top: 9vh;
     font-size: 4.5vh;
 }
 

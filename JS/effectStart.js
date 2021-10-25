@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     document.querySelector('#recap').className = "recapBtn";
     document.querySelector('#infoBtn').className = "infoBtn";
     document.querySelector('#decoBtn').className = "decoBtn";
-    document.querySelector('#removeBtn').className = "removeAccount";
+    
 
 })
 
@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 document.querySelector('#start').addEventListener('click', () => {    
     document.querySelector('#bigStart').className = 'bigButtonOff'
     document.querySelector('.secondStep').className = 'secondStepOpen'
-    document.querySelector('.hello').style.display = 'none'
+    
     
     
 })
@@ -57,11 +57,7 @@ document.querySelector('#infoBtn').addEventListener('click', () => {
     
 })
 
-document.querySelector('.cleanRecap').addEventListener('click', () => {
-   
-    document.querySelector('.container').className='container'
-    document.querySelector('#divRecap').className='divRecap'
-})
+
 
 
 
