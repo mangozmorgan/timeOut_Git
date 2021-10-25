@@ -1,3 +1,5 @@
+![alt text](https://github.com/mangozmorgan/timeOut_Git/blob/main/logo.png)
+
 # Time's Out Github Version
 
 Version vitrine de l'application Time's Out 
