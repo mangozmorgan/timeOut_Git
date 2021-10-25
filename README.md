@@ -18,7 +18,7 @@ N'hésitez pas à me faire des retours.
 
 ### Petit +
 
-Une application Windows 10 sera bientôt dévveloppé !
+Une application Windows 10 sera bientôt développée !
 
 ### Comment c'est fait ? 
 
