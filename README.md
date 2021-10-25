@@ -16,10 +16,10 @@ La version disponible en ligne est bien entendue une version "vitrine" les fonci
 N'hésitez pas à me faire des retours .
 Ici -> https://mangozmorgan.github.io/timeOut_Git/
 
-#### Petit +
+### Petit +
 
 Une application Windows 10 sera bientôt dévveloppé !
 
-##### Comment c'est fait ? 
+### Comment c'est fait ? 
 
 Pour le projet vitrine je me suis restreint a l'usage de Javascript/HTML/CSS car le back-end n'est bien sûr pas accepté sur Git Pages . Sinon le projet en lui même est fait avec PHP pour le back-end et MySql pour la base de données . L'architecture est orientée POO + MVC !
